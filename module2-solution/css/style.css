@@ -1,0 +1,98 @@
+/* General styles */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    border: 1px solid black;
+    font-size: 125%;
+    font-weight: bold;
+    float: right;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: -11px;
+    right: -11px;
+    padding: 5px 0px 5px 0px;
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', Verdana, sans-serif;
+}
+
+section {
+    border: 1px solid black;
+    background-color: #999;
+    padding: 10px;
+    min-height: 150px;
+}
+
+.row {
+    width: 100%;
+}
+
+.box {
+    padding: 10px;
+    float: left;
+}
+
+.box-1 h2.title {
+    background-color: #D59898;
+}
+  
+.box-2 h2.title {
+    background-color: #C14543;
+    color: #fff;
+}
+
+.box-3 h2.title {
+    background-color: #E5D198;
+}
+
+#container {
+    padding: 10px;
+}
+
+section > p {
+  clear: right;
+}
+
+/* Desktop view : width >= 992px */
+@media (min-width: 992px) {
+  .box {
+    width: 33.33%;
+  }
+}
+
+/* Tablet view : 768px <= width <= 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .box {
+    width: 50%;
+  }
+
+  .box:last-child {
+    width: 100%;
+  }
+}
+
+/* Mobile view : width <= 767px */
+@media (max-width: 767px) {
+  .box {
+    width: 100%;
+  }
+}

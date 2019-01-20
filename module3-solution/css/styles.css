@@ -16,7 +16,7 @@
 
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
-  }
+}
 
 .navbar-brand h1 {    
     font-family: 'Oswald';
@@ -43,8 +43,6 @@
     position: relative;
 }
 
-
-
 #nav-list {
     margin-top: 10px;
 }
@@ -59,7 +57,7 @@
 }
 
 #nav-list a:hover {
-    background-color: #AEAE52;   
+    background-color: #FFE680;   
 }
 
 .navbar-default .navbar-collapse {

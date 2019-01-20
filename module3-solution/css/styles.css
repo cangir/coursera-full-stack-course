@@ -3,15 +3,15 @@
 }
 
 #header-nav {
-    background-color: #AAA5A5;
+    background-color:#C42722;
     border-radius: 0;
     border: 0;    
-    border: solid black 3px;
     margin-bottom: 0;
 }
 
 .navbar-brand {       
-    padding-left: 0;  
+    padding-left: 0;
+    height: 60px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -21,7 +21,7 @@
 .navbar-brand h1 {    
     font-family: 'Oswald';
     font-size: 1.5em;
-    color: black;   
+    color: #fff;   
     margin-top: 0;
     margin-left: 15px;
     margin-bottom: 0;
@@ -32,12 +32,12 @@
     font-size: 38px;
     font-weight: bold;
     position: relative;
-    margin-top: 55px;
+    margin-top: 80px;
 }
 
 #text {       
     margin: 10px;
-    background-color: #AAA5A5;
+    background-color: #F0DCDC;
     font-family: 'Oswald';   
     font-size: 1.5em;
     position: relative;
@@ -47,14 +47,7 @@
     margin-top: 10px;
 }
 
-#nav-list a {
-    text-align: center;
-    color: black;
-    font-family: 'Oswald';
-    font-size: 1.5em;
-    font-weight: 100;
-    background-color: #AAA5A5;
-}
+
 
 #nav-list a:hover {
     background-color: #FFE680;   
@@ -63,5 +56,15 @@
 .navbar-default .navbar-collapse {
 	margin-top:0px;
 	border: 0px;
-	list-style-type: none;
-}  
+    list-style-type: none;
+}
+
+.navbar-collapse #nav-list a {
+    text-align: center;
+    background: #fff;
+    color: #C42722;
+    font-family: 'Oswald';
+    font-size: 1.5em;
+    font-weight: 100;
+    border-bottom: 1px solid #CA3D39;
+}

@@ -1,5 +1,7 @@
 ## Coursera Full Stack Course
 
+Assignments for Coursera Full Stack Course
+
 You can check the demo links Below 
 
 [Module 2 Solution Demo](https://statixdesign.github.io/coursera-full-stack-course/module2-solution/)
